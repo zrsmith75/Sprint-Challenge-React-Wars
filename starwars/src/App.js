@@ -33,11 +33,15 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <p>
-          {this.state.starwarsChars.map(char => (
-            <div>{`${char.name}`}</div>
-          ))}
-        </p>
+        {this.state.starwarsChars.map(char => (
+          <div className="display">
+            <ul>
+              <li className="char-name">{`${char.name}`}</li>
+              <li>{`Height: ${char.height} Weight: ${char.mass}`}</li>
+              <li>{`Birth Year: ${char.birth_year}`}</li>
+            </ul>
+          </div>
+        ))}
       </div>
     );
   }
