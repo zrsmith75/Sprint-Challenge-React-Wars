@@ -53,7 +53,7 @@ class App extends Component {
             </div>
           ))
         ) : (
-          <LoadingComponent />
+          <LoadingComponent message="... Loading!!" />
         )}
         <NextBtnComponent />
       </div>

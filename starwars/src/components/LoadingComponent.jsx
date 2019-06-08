@@ -1,9 +1,9 @@
 import React from "react";
 
-const LoadingComponent = () => {
+const LoadingComponent = ({ message }) => {
   return (
     <div className="loading">
-      <p>... Loading</p>
+      <p>{message}</p>
     </div>
   );
 };
