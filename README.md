@@ -38,7 +38,7 @@ State is the current state or the current data the the UI is curretnly using. Th
 
 - [ ] Describe props.
 
-Props are simply stated, properties that can be used in React and the JSX.
+Props are simply stated, properties or arguments that can be used in React and the JSX.
 
 ## Project Set Up
 
