@@ -24,6 +24,20 @@ h1 {
   padding: 5px;
 }
 
+.loading {
+  width: 500px;
+  height: 500px;
+  margin: 25px auto;
+  background-color: white;
+  opacity: .7;
+  border-radius: 15px;
+}
+
+.loading p {
+  font-size: 4rem;
+  padding-top: 160px;
+}
+
 ul {
   list-style: none;
 }
