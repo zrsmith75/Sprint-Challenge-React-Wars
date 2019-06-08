@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import NextBtnComponent from "./components/nextBtnComponent";
 import "./App.css";
 
 class App extends Component {
@@ -42,6 +43,7 @@ class App extends Component {
             </ul>
           </div>
         ))}
+        <NextBtnComponent />
       </div>
     );
   }

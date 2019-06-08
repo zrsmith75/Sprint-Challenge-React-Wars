@@ -36,3 +36,8 @@ li {
   font-size: 1.6rem;
   font-weight: bold;
 }
+
+.next-link {
+  font-size: 1.5rem;
+  color: black;
+}
