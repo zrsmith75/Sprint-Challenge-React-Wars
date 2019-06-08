@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import NextBtnComponent from "./components/nextBtnComponent";
+import LoadingComponent from "./components/LoadingComponent";
 import "./App.css";
 
 class App extends Component {
@@ -52,9 +53,7 @@ class App extends Component {
             </div>
           ))
         ) : (
-          <div className="loading">
-            <p>... Loading!</p>
-          </div>
+          <LoadingComponent />
         )}
         <NextBtnComponent />
       </div>
