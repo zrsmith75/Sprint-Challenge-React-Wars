@@ -36,8 +36,8 @@ class App extends Component {
         {this.state.starwarsChars.map(char => (
           <div className="display">
             <ul>
-              <li className="char-name">{`${char.name}`}</li>
-              <li>{`Height: ${char.height} Weight: ${char.mass}`}</li>
+              <li id="char-name">{`${char.name}`}</li>
+              <li>{`Height: ${char.height}cm Weight: ${char.mass}kg`}</li>
               <li>{`Birth Year: ${char.birth_year}`}</li>
             </ul>
           </div>
