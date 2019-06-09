@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NextBtnComponent from "./components/nextBtnComponent";
 import LoadingComponent from "./components/LoadingComponent";
+import keyIndex from "react-key-index";
 import "./App.css";
 
 class App extends Component {
@@ -39,11 +40,12 @@ class App extends Component {
   };
 
   render() {
+    const { loading, starwarsChars } = this.state;
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        {!this.state.loading ? (
-          this.state.starwarsChars.map(char => (
+        {!loading ? (
+          starwarsChars.map(char => (
             <div className="display">
               <ul>
                 <li id="char-name">{`${char.name}`}</li>
