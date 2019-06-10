@@ -1,8 +1,57 @@
 .App {
   text-align: center;
+  font-size: 62.5%;
 }
+
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+h1 {
+  font-size: 2.2rem;
+}
+
 /* write your parent styles in here for your App.js */
+
+.display {
+  margin: 5px auto;
+  width: 500px;
+  height: auto;
+  background-color: white;
+  opacity: .7;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.loading {
+  width: 500px;
+  height: 500px;
+  margin: 25px auto;
+  background-color: white;
+  opacity: .7;
+  border-radius: 15px;
+}
+
+.loading p {
+  font-size: 4rem;
+  padding-top: 160px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.4rem;
+}
+
+#char-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.next-link {
+  font-size: 1.5rem;
+  color: black;
+}
